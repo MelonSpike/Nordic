@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "silver",
+  "ingredient": {
+    "item": "nordicmod:silver_ore"
+  },
+  "result": "nordicmod:silver"
+}

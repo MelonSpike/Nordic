@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "nordicmod:silver_ore",
+    "nordicmod:deepslate_silver_ore",
+    "nordicmod:silver_block"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "item.nordicmod.mythril": "Mythril Ingot",
+  "item.nordicmod.raw_mythril": "Raw Mythril",
+  "item.nordicmod.silver": "Silver Ingot",
+  "item.nordicmod.raw_silver": "Raw Silver",
+
+  "block.nordicmod.mythril_ore": "Mythril Ore",
+  "block.nordicmod.mythril_block": "Block of Mythril",
+  "block.nordicmod.silver_ore": "Silver Ore",
+  "block.nordicmod.deepslate_silver_ore": "Deepslate Silver Ore",
+  "block.nordicmod.silver_block": "Block of Silver",
+
+  "itemGroup.nordicmaterialstab": "Nordic Materials",
+  "itemGroup.nordicblockstab": "Nordic Blocks"
+}

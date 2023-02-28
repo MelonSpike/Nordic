@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "nordicmod:silver_block"
+    }
+  ],
+  "result": {
+    "item": "nordicmod:silver",
+    "count": 9
+  }
+}

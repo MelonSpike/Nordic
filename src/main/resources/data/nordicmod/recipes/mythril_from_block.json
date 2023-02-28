@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "nordicmod:mythril_block"
+    }
+  ],
+  "result": {
+    "item": "nordicmod:mythril",
+    "count": 9
+  }
+}

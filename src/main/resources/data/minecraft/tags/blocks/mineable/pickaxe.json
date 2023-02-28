@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "nordicmod:mythril_ore",
+    "nordicmod:mythril_block",
+    "nordicmod:silver_ore",
+    "nordicmod:deepslate_silver_ore",
+    "nordicmod:silver_block"
+  ]
+}

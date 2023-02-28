@@ -1,6 +1,10 @@
 package net.melonspike.nordicmod;
 
 import com.mojang.logging.LogUtils;
+import net.melonspike.nordicmod.block.ModBlocks;
+import net.melonspike.nordicmod.item.ModItems;
+import net.melonspike.nordicmod.world.feature.ModConfiguredFeatures;
+import net.melonspike.nordicmod.world.feature.ModPlacedFeatures;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -19,6 +23,12 @@ public class NordicMod {
 
     public NordicMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
+        ModConfiguredFeatures.register(modEventBus);
+        ModPlacedFeatures.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
